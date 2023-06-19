@@ -1,0 +1,27 @@
+1. Creati o clasa noua (non-abstracta) cu numele Animal cu urmatoarele atributele de tip protected: nume (String), culoare (String), vegetarian (boolean);
+
+2. Adaugati un constructor cu 0 parametri cu valori default (nume "unknwon", culoare "unknown", vegetarian "false");
+
+3. Adaugati 2 constructori cu 1 si 3 parametri la alegere (folosind this); Hint: Code > Generate > Constructor
+
+4. Adaugati getteri si setteri pentru toate atributele clasei; Hint: Code > Generate > Getters and Setters
+
+5. Adaugati doua metode (non-statice) void pentru clasa Animal: mananca() si doarme() care sa afiseze "numeAnimal mananca", respectiv "numeAnimal doarme" (unde numeAnimal = numele animalului)
+
+6. Adaugati o metoda (non-statica) afiseaza() care sa returneze (cu return de tip String) "numeAnimal are culoarea culoare" (unde numeAnimal si culoare sunt valorile atributelor obiectului respectiv).
+
+7. In Clasa Main, creati doua obiecte de tip Animal folosind constructori si valori la alegere
+
+8. Tot in Main, apelati cele 3 metode (mananca, doarme, afiseaza) cu fiecare din cele doua obiecte
+
+Optional:
+
+9. Adaugati doua campuri de tip private in clasa Animal: nrPicioare (int) si undeTraieste (de tip String, cu 3 posibile valori: "apa","aer","uscat)";
+
+10. Adaugati getter si setteri pentru cele doua campuri noi si adaugati un constructor nou care sa includa cele doua atribute;
+
+11. Creati o metoda care afiseaza: numeAnimal+“nu are picioare” (daca nu are picioare), “are 2 picioare” (daca are doua picioare), “are 4 picioare” (daca nrPicioare==4) sau “are alt numar de picioare”.
+
+12. Creati 3 obiecte (caine, papagal, caracatita) si apelati metoda de la punctul 11 cu fiecare din ele
+
+
