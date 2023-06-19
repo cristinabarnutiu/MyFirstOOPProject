@@ -22,6 +22,6 @@ Optional:
 
 11. Creati o metoda care afiseaza: numeAnimal+“nu are picioare” (daca nu are picioare), “are 2 picioare” (daca are doua picioare), “are 4 picioare” (daca nrPicioare==4) sau “are alt numar de picioare”.
 
-12. Creati 3 obiecte (caine, papagal, caracatita) si apelati metoda de la punctul 11 cu fiecare din ele
+12. Creati 3 obiecte (caine, papagal, caracatita) si apelati metoda de la punctul 11 cu fiecare din ele.
 
 
