@@ -1,0 +1,14 @@
+1. Clasa Animal implementeaza interfata Vietate (faceti modificarile necesare)
+2. Creati o clasa numita Patruped care mosteneste clasa Animal.
+Clasa Patruped are in plus un camp nume (String) si un camp nrPicioare (nrPicioare = 4 pt toate obiectele)
+3. Creati un obiect din clasa Patruped cu nume "Azorel" si apelati oicare metoda din clasa parinte
+
+In clasa DataStructures:
+4. Adaugati o lista de cursuri cu elementele: Testare manuala, Testara automata, Front-end, Java.
+Afisati elementul de pe a doua pozitie si lungimea listei.
+Scrieti o metoda care afiseaza toate elementele.
+
+5.	Adaugati un dictionar nou cu elemente key-value: numeStudent(String)-treceExamenul(Boolean).
+Adaugati 5 elemente cu valori diferite.
+Scrieti o metoda care afiseaza doar numele studentilor care trec examenul.
+
