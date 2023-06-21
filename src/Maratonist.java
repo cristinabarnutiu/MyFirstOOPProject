@@ -1,4 +1,5 @@
 public class Maratonist extends Sportiv{
+
     @Override
     void seAntreneaza() {
     }
