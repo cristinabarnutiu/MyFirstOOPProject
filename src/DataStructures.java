@@ -1,3 +1,5 @@
+import javax.sound.midi.Soundbank;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -28,6 +30,28 @@ public class DataStructures {
         hashMapList.replace(1,"Luni-modificat");
         System.out.println(hashMapList.values());
         System.out.println(hashMapList.entrySet());
+
+        //exercitii2
+        HashMap<String, Boolean> listaExamen = new HashMap<>();
+        listaExamen.put("Sam",true);
+        listaExamen.put("Jon",false);
+        listaExamen.put("Ana",true);
+        listaExamen.put("Ema",false);
+        listaExamen.put("Paul",true);
+
+        System.out.println();
+        System.out.println(listaExamen.entrySet());
+
+
+        for (String student: listaExamen.keySet()){
+            if(listaExamen.get(student)){
+                System.out.println(student);
+            }
+        }
+
+
+
+
 
 
     }

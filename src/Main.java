@@ -69,5 +69,15 @@ public class Main {
         Fotbalist fotbalist1 = new Fotbalist("Mbappe","FR");
         fotbalist1.seOdihneste();
 
+        Animal caine = new Animal("Rex","alb",false);
+        caine.doarme();
+        //System.out.println(caine.nume);
+        System.out.println(caine.afiseaza());
+        caine.afiseazaNrPicioare();
+        Animal papagal = new Animal("Roco","multicolor",true,2);
+        papagal.afiseazaNrPicioare();
+        Patruped catelulAzorel = new Patruped("Azorel");
+        catelulAzorel.afiseazaNrPicioare();
+
     }
 }
